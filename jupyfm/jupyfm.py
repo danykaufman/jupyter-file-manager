@@ -1,4 +1,4 @@
-from notebook.services.contents.largefilemanager import LargeFileManager
+from jupyter_server.services.contents.manager.ContentsManager import LargeFileManager
 import os
 from tornado import web
 import shutil
